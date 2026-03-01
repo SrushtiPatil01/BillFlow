@@ -19,6 +19,23 @@ The hard problems this solves:
 
 ---
 
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| **Language** | Java 17 |
+| **Backend** | Spring MVC, Hibernate ORM |
+| **Database** | MySQL |
+| **Messaging** | Apache Kafka |
+| **Payments** | Stripe API |
+| **Storage** | Google Cloud Storage |
+| **Build** | Maven |
+| **Infrastructure** | Docker Compose |
+
+---
+
+
+
 ## Architecture
 
 <img width="1841" height="1115" alt="image" src="https://github.com/user-attachments/assets/6178d268-fce2-43be-8403-236b3158ba8a" />
@@ -53,19 +70,6 @@ Only valid transitions are allowed. Invalid transitions (e.g., `CANCELLED → AC
 
 ---
 
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| **Language** | Java 17 |
-| **Backend** | Spring MVC, Hibernate ORM |
-| **Database** | MySQL |
-| **Messaging** | Apache Kafka |
-| **Payments** | Stripe API |
-| **Storage** | Google Cloud Storage |
-| **Infrastructure** | Docker Compose |
-
----
 
 ## API Endpoints
 
