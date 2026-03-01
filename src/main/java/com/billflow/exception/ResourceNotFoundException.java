@@ -1,5 +1,8 @@
 package com.billflow.exception;
 
-public class ResourceNotFoundException {
+public class ResourceNotFoundException extends RuntimeException {
 
+    public ResourceNotFoundException(String resource, Object id) {
+        super(String.format("%s not found with id: %s", resource, id));
+    }
 }

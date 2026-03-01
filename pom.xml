@@ -58,6 +58,14 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- ==================== Jakarta Annotations ==================== -->
+        <!-- Required for @PostConstruct, @PreDestroy -->
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
         <!-- ==================== Hibernate + MySQL ==================== -->
         <dependency>
             <groupId>org.hibernate.orm</groupId>
@@ -130,6 +138,12 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
+            <version>5.12.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
             <version>5.12.0</version>
             <scope>test</scope>
         </dependency>

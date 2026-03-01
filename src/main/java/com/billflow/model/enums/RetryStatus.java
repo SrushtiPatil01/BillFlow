@@ -1,5 +1,7 @@
 package com.billflow.model.enums;
 
-public class RetryStatus {
-
+public enum RetryStatus {
+    PENDING,
+    SUCCEEDED,
+    EXHAUSTED
 }

@@ -1,5 +1,8 @@
 package com.billflow.model.enums;
 
-public class SubscriptionStatus {
-
+public enum SubscriptionStatus {
+    PENDING,
+    ACTIVE,
+    PAST_DUE,
+    CANCELLED
 }
