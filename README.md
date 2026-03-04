@@ -2,6 +2,8 @@
 
 Subscription billing backend with Stripe integration, idempotent webhook processing, and automated payment retries.
 
+Built With: Java · Spring MVC · Hibernate ·  MySQL ·  Kafka ·  Google Cloud Storage ·  Docker ·  Stripe API
+
 ---
 
 ## What This Project Does
